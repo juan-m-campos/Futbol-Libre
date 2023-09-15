@@ -1,0 +1,86 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF; /* Blanco */
+    color: #333; /* Color de texto principal */
+}
+
+h1, h2, h3 {
+    color: #133881; /* Azul Boca Juniors */
+}
+
+a {
+    color: #FFD100; /* Amarillo Boca Juniors */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #133881; /* Azul Boca Juniors */
+    color: #FFFFFF; /* Texto en blanco */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-weight: bold;
+}
+
+/* Estilos para las secciones */
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Estilos para el formulario de contacto */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #133881; /* Azul Boca Juniors */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color: #133881; /* Azul Boca Juniors */
+    color: #FFFFFF; /* Texto en blanco */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0C2C71; /* Azul más oscuro para hover */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #133881; /* Azul Boca Juniors */
+    color: #FFFFFF; /* Texto en blanco */
+    text-align: center;
+    padding: 10px;
+}
